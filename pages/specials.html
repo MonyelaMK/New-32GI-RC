@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Specials</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+
+<body>
+    <!-- ======================= Navbar ===================== -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="/index.html">
+                <img src="/assets/img/logo/Logo.webp" alt="Logo">
+            </a>
+            <button class="navbar-toggler bg-warning" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon text-warning"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-warning" aria-current="page" href="/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-warning" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-warning" href="events.html" id="navbarDropdown"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Events
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item text-warning" href="#">Action</a></li>
+                            <li><a class="dropdown-item text-warning" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item text-warning" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-warning" href="specials.html">Special</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-warning" href="gallery.html">Gallery</a>
+                    </li>
+                </ul>
+                <div>
+                    <ul class="d-flex m-auto">
+                        <!-- <li>
+                            <a href="/pages/cart.html" class="icons-link text-warning px-3 h4">
+                                <span class="nav-icon">
+                                    <i class="bi bi-cart3"></i>
+                                    <span class="quantity js-cart-quantity">0</span>
+                                </span>
+                                <span class="nav-text">Cart</span>
+                            </a>
+                        </li> -->
+                        <li>
+                            <a href="contact.html" class="icons-link text-warning px-3 h4">
+                                <span class="nav-icon"><i class="bi bi-telephone"></i></span>
+                                <!-- <span class="nav-text">Contact</span> -->
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="icons-link text-warning px-3 h4">
+                                <span class="nav-icon"><i class="bi bi-person"></i></span>
+                                <!-- <span class="nav-text">Login</span> -->
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- ===================== Organic Food ==================== -->
+    <section class="product pb-5">
+        <div class="container">
+            <div class="row mt-5 py-5">
+                <div class="dropdown">
+                    <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Shop By Category
+                    </button>
+                    <div class="dropdown-menu p-2" aria-labelledby="dropdownMenuButton1">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                All
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                Specail
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                Bottle
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                Shirt
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                Shoe
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                Powder
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                Watch
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                            <label class="form-check-label" for="flexCheckChecked">
+                                Trouser
+                            </label>
+                        </div>
+                    </div>
+                    <!-- <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul> -->
+                </div>
+                <div class="col-lg-6 m-auto">
+                    <!-- <h3>What's Tranding</h3>
+                    <h6 style="color: red;">Be Healthy Organic Food</h6> -->
+                    <!-- <li> -->
+                    <a href="/pages/cart.html" class="icons-link text-dark px-3 h4 fw-bold">
+                        <span class="nav-icon">
+                            <i class="bi bi-cart3"></i>
+                            <span class="quantity js-cart-quantity">0</span>
+                        </span>
+                        <span class="nav-text">Cart</span>
+                    </a>
+                    <!-- </li> -->
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 m-auto text-center">
+                    <h3 class="fw-bold">Our Products</h3>
+                    <h6 style="color: red;">Get The Best Deal</h6>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 text-center">
+                    <div class="card border-0 bg-light mb-2">
+                        <div class="card-body">
+                            <img src="assets/img/pic-2.jpg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <h6>Energy Food</h6>
+                    <p>R39.99</p>
+                </div>
+                <div class="col-lg-3 text-center">
+                    <div class="card border-0 bg-light mb-2">
+                        <div class="card-body">
+                            <img src="assets/img/pic-2.jpg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <h6>Energy Food</h6>
+                    <p>R39.99</p>
+                </div>
+                <div class="col-lg-3 text-center">
+                    <div class="card border-0 bg-light mb-2">
+                        <div class="card-body">
+                            <img src="assets/img/pic-2.jpg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <h6>Energy Food</h6>
+                    <p>R39.99</p>
+                </div>
+                <div class="col-lg-3 text-center">
+                    <div class="card border-0 bg-light mb-2">
+                        <div class="card-body">
+                            <img src="assets/img/pic-2.jpg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <h6>Energy Food</h6>
+                    <p>R39.99</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 text-center m-auto">
+                    <button class="btn btn-warning">Click For More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ================== Footer ================= -->
+    <footer class="news showcase text-light position-relative">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-6 text-start">
+                    <a class="navbar-brand" href="/index.html">
+                        <img src="/assets/img/logo/Logo.webp" alt="Logo">
+                    </a>
+                </div>
+                <div class="col-lg-6 m-auto text-center">
+                    <h1 class="text-danger">Join Our Running Club</h1>
+                </div>
+            </div>
+            <div class="row pt-5">
+                <div class="col-lg-11 m-auto">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <h5 class="pb-3 text-warning">INFORMATION</h5>
+                            <p class="mb-1">
+                                <a href="#" class="text-white">Shipping & Return Policy</a>
+                            </p>
+                            <p class="mb-1">
+                                <a href="#" class="text-white">Website Terms & Conditions</a>
+                            </p>
+                            <p class="mb-1">
+                                <a href="contact.html" class="text-white">Contact Us</a>
+                            </p>
+                            <p class="mb-1s">
+                                <a href="#" class="text-white">Discounts & Coupon T's & C's</a>
+                            </p>
+
+                        </div>
+                        <div class="col-lg-3">
+                            <h5 class="pb-3 text-warning">COLLECTION</h5>
+                            <p class="mb-1">
+                                <a href="#" class="text-white">Race</a>
+                            </p>
+                            <p class="mb-1">
+                                <a href="#" class="text-white">Recover</a>
+                            </p>
+                            <p class="mb-1">
+                                <a href="#" class="text-white">Endure</a>
+                            </p>
+                            <p class="mb-1">
+                                <a href="#" class="text-white">Hydration</a>
+                            </p>
+                            <p class="mb-1">
+                                <a href="#" class="text-white">Pre-Training</a>
+                            </p>
+                        </div>
+                        <div class="col-lg-3">
+                            <h5 class="pb-3 text-warning">CONTACT INFO</h5>
+                            <p class="mb-1">100 Northern Parkway Rd, Ormonde, Johannesburg South, 2091</p>
+                            <p class="mb-1 text-danger">RSA 083 701 4194 | <span
+                                    class="text-primary">runner32gi@gmail.com</span>
+                            </p>
+                            <p class="mb-1">Mon-Fri 8am-4pm CAT</p>
+                        </div>
+                        <div class=" col-lg-3">
+                            <h5 class="pb-3 text-warning">SOCIAL MEDIA</h5>
+                            <span><i class="bi bi-facebook social"></i></span>
+                            <span><i class="bi bi-instagram social"></i></span>
+                            <span><i class="bi bi-twitter social"></i></span>
+                            <span><i class="bi bi-linkedin social"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <p class="text-center">Copyright &copy;2023 All Rights Reserved | Made by Matome</p>
+            <a href="#" class="position-absolute bottom-0 end-0 p-5">
+                <i class="bi bi-arrow-up-circle h1"></i>
+            </a>
+        </div>
+    </footer>
+    <!-- ===================== Modal ================= -->
+    <div class="modal fade" id="enroll" tabindex="-1" aria-labelledby="enrollLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="enrollLabel">Registration Form</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="lead fw-bold text-primary">Fill out this form and we will get back to you!</p>
+                    <form>
+                        <div class="mb-3">
+                            <label for="first-name" class="col-form-label">First Name:</label>
+                            <input type="text" id="first-name" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label for="first-name" class="col-form-label">Last Name:</label>
+                            <input type="text" id="first-name" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label for="first-name" class="col-form-label">Email:</label>
+                            <input type="text" id="first-name" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label for="first-name" class="col-form-label">Phone:</label>
+                            <input type="text" id="first-name" class="form-control">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ==================== JS Links ================= -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
